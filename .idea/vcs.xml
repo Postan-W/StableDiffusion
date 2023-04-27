@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/diffusers/model/stable-diffusion-v1-4" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/diffusers/stable-diffusion-v1-4" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/diffusers/v1_4" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/huggingface_diffusers/model/stable-diffusion-v1-4" vcs="Git" />
+  </component>
+</project>
