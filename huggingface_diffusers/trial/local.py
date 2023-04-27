@@ -16,5 +16,6 @@ pipe.enable_attention_slicing()#attention顺序运行。没有该句则是批处
 generator = torch.Generator("cuda").manual_seed(2147483647)#固定seed，这样同样的prompt生成的结果接近。(如果初始分布数据一致的话那么结果完全相同)
 prompt = "virago sleeve dress, lotus root shaped sleeves, intricate fabric details, fashion product catalog image, studio lighting, front view, square image"
 with autocast("cuda"):
-    image = pipe(prompt,generator=generator).images[0]
-    image.save("./images/" + get_next("./images",".jpg"))
+    # image = pipe(prompt,generator=generator).images[0]
+    # image.save("./images/" + get_next("./images",".jpg"))
+    print(len(pipe(prompt,generator=generator).images))
